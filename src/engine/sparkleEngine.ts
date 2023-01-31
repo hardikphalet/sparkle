@@ -3,7 +3,7 @@ import { SparkleObject } from './interfaces.js';
 
 export function convert(objects: SparkleObject[]): string {
   let resultString: string = '';
-  objects.forEach((object) => {
+  objects.filter((x) => x.values.length > 0).forEach((object) => {
     resultString = resultString.concat(getFuncFromOperation(object.operator)(object)).concat(';');
   });
   return resultString;
