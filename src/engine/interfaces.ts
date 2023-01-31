@@ -1,8 +1,8 @@
-import { Operation } from "./consts";
+import { Operation } from './consts.js';
 
 export interface SparkleObject {
-    label: string,
-    bind: string,
-    operator: Operation,
-    values: string[]
+  label: string;
+  bind: string;
+  operator: Operation;
+  values: string[];
 }

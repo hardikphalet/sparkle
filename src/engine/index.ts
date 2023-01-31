@@ -1,8 +1,4 @@
-import { SparkleObject } from "./interfaces"
-import { convert } from "./sparkleEngine"
-import { Operation } from "./consts"
-export {
-    SparkleObject,
-    Operation,
-    convert
-}
+import { SparkleObject } from './interfaces.js';
+import { convert } from './sparkleEngine.js';
+import { Operation } from './consts.js';
+export { SparkleObject, Operation, convert };

@@ -1,1 +1,1 @@
-export type Operation = "==" | ">" | "<" | ">=" | "<=" | "in" | "!in";  
+export type Operation = '==' | '>' | '<' | '>=' | '<=' | 'in' | '!in';
