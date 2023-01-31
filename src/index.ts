@@ -1,1 +1,6 @@
-export const Greeter = (name: string) => `Hello ${name}`; 
+import { SparkleObject, Operation, convert } from "./engine"
+export {
+    SparkleObject,
+    Operation,
+    convert
+}

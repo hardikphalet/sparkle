@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/hardikphalet/sparkle#readme",
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "prettier": "^2.8.3",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.9.5"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
