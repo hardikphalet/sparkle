@@ -1,6 +1,6 @@
 {
   "name": "@pelt/sparkle",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "",
   "type": "module",
   "types": "./lib/cjs/types/index.d.ts",
